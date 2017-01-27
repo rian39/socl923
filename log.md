@@ -22,3 +22,7 @@
 ## Thu 26 Jan 2017 16:43:51 GMT
 - TODO: print outline
 - not sure if fake news is going to work well as a topic; main thing this course is trying to do is get to think about how research anything from an MCS standpoint. 
+
+## Fri 27 Jan 2017 08:23:48 GMT
+- week 2: textuality! get them to think about sign, text and textuality -- how to work with them all;  
+    - admin: roll; next week -- a disruption -- how to manage; the group projects 
