@@ -26,3 +26,6 @@
 ## Fri 27 Jan 2017 08:23:48 GMT
 - week 2: textuality! get them to think about sign, text and textuality -- how to work with them all;  
     - admin: roll; next week -- a disruption -- how to manage; the group projects 
+
+## Thu 02 Feb 2017 15:54:28 GMT
+- item for fake news discussion: http://motherboard.vice.com/read/big-data-cambridge-analytica-brexit-trump. Don't want to fox them with the complexity of fake news, but it does add a different perspective on it.  
