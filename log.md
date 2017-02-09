@@ -18,7 +18,6 @@
     Wk8: Graeme (10 March)
 - Need to incorporate these in the outline and also plan for week 7 activities. 
 
-
 ## Thu 26 Jan 2017 16:43:51 GMT
 - TODO: print outline
 - not sure if fake news is going to work well as a topic; main thing this course is trying to do is get to think about how research anything from an MCS standpoint. 
@@ -29,3 +28,10 @@
 
 ## Thu 02 Feb 2017 15:54:28 GMT
 - item for fake news discussion: http://motherboard.vice.com/read/big-data-cambridge-analytica-brexit-trump. Don't want to fox them with the complexity of fake news, but it does add a different perspective on it.  
+
+## Thu 09 Feb 2017 13:08:49 GMT
+- TODO: check all groups have their url on the moodle
+- TODO: check Miriam is ok for tomorrow
+- TODO: email group about late start for class
+- changed a few things in week 4
+
