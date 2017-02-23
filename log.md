@@ -35,3 +35,6 @@
 - TODO: email group about late start for class
 - changed a few things in week 4
 
+
+## Thu 23 Feb 2017 17:03:11 GMT
+- TODO: change readings for digital ethnography from Murthy to something Boellstorff on virtual methods ... ref is in zotero socl923 library  
