@@ -38,3 +38,8 @@
 
 ## Thu 23 Feb 2017 17:03:11 GMT
 - TODO: change readings for digital ethnography from Murthy to something Boellstorff on virtual methods ... ref is in zotero socl923 library  
+
+## Wed 08 Mar 2017 16:45:56 GMT
+- have changed the reading for week 8 to piece by Crang on assembling materials; TODO - put ref in course outline, add ref to zotero; 
+- TODO: add comments from McRobbie intro, Couldry conclusion, and Crang to slides; 
+- TODO: go through and look at blogs/Facebook pages for groups
