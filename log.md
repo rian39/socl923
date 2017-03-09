@@ -43,3 +43,10 @@
 - have changed the reading for week 8 to piece by Crang on assembling materials; TODO - put ref in course outline, add ref to zotero; 
 - TODO: add comments from McRobbie intro, Couldry conclusion, and Crang to slides; 
 - TODO: go through and look at blogs/Facebook pages for groups
+
+
+## Thu 09 Mar 2017 17:39:55 GMT
+- group 1 https://fakenews923.wordpress.com/
+- group 2 portfolio: https://fakenewsgroup2.wordpress.com/2017/01/26/what-is-fake-news/
+- group 3 http://socl923fakenews.blogspot.co.uk/ 
+- group 4 https://www.facebook.com/groups/171801853303023/?ref=group_browse_new&qsefr=1 
