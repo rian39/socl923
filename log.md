@@ -35,18 +35,19 @@
 - TODO: email group about late start for class
 - changed a few things in week 4
 
-
 ## Thu 23 Feb 2017 17:03:11 GMT
 - TODO: change readings for digital ethnography from Murthy to something Boellstorff on virtual methods ... ref is in zotero socl923 library  
 
 ## Wed 08 Mar 2017 16:45:56 GMT
-- have changed the reading for week 8 to piece by Crang on assembling materials; TODO - put ref in course outline, add ref to zotero; 
+- have changed the reading for week 8 to piece by Crang on assembling materials;  ~/archive/socl923_mcs_methods/crang_telling_materials_2003.pdf TODO - put ref in course outline, add ref to zotero; 
 - TODO: add comments from McRobbie intro, Couldry conclusion, and Crang to slides; 
 - TODO: go through and look at blogs/Facebook pages for groups
-
 
 ## Thu 09 Mar 2017 17:39:55 GMT
 - group 1 https://fakenews923.wordpress.com/
 - group 2 portfolio: https://fakenewsgroup2.wordpress.com/2017/01/26/what-is-fake-news/
 - group 3 http://socl923fakenews.blogspot.co.uk/ 
 - group 4 https://www.facebook.com/groups/171801853303023/?ref=group_browse_new&qsefr=1 
+
+## Fri 10 Mar 2017 09:00:00 GMT
+- TODO: need to print out Crang for my collection of readings 
