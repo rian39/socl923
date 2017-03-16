@@ -51,3 +51,7 @@
 
 ## Fri 10 Mar 2017 09:00:00 GMT
 - TODO: need to print out Crang for my collection of readings 
+
+## Thu 16 Mar 2017 14:19:24 GMT
+- added some new images to Week 9 -- it's really a tidying up week.  
+- remember to take feedback sheets next week. 
