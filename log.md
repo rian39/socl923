@@ -51,7 +51,8 @@
 
 ## Fri 10 Mar 2017 09:00:00 GMT
 - TODO: need to print out Crang for my collection of readings 
+- TODO: week 8 slides took too long to get through -- didn't really have time for the exercises + interview. Cut them back. 
 
 ## Thu 16 Mar 2017 14:19:24 GMT
 - added some new images to Week 9 -- it's really a tidying up week.  
-- remember to take feedback sheets next week. 
+- remember to take feedback sheets next week (for week 10 -- they are in the folder). 
