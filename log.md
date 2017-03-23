@@ -56,3 +56,6 @@
 ## Thu 16 Mar 2017 14:19:24 GMT
 - added some new images to Week 9 -- it's really a tidying up week.  
 - remember to take feedback sheets next week (for week 10 -- they are in the folder). 
+
+## Thu 23 Mar 2017 13:44:23 GMT
+- TODO: fix up the course outline to reflect the final actual course 
