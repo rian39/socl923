@@ -59,3 +59,6 @@
 
 ## Thu 23 Mar 2017 13:44:23 GMT
 - TODO: fix up the course outline to reflect the final actual course 
+
+## Fri 24 Mar 2017 12:00:32 GMT
+- have done feedback on presentations -- need to format for grade upload.  
