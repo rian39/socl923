@@ -66,3 +66,6 @@
 ## Tue 28 Mar 2017 16:04:17 BST
 - starting to formalize presentation feedback. Might try grade upload, but probably won't work. 
 - 
+
+## Thu 06 Apr 2017 06:45:39 BST
+- downloaded the projects and put in group_projects/  

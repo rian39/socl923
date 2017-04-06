@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://fakenews923.wordpress.com/xmlrpc.php">
+
+<title>Week 7 Live methods &#8211; Fakenews</title>
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Fakenews &raquo; Feed" href="https://fakenews923.wordpress.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fakenews &raquo; Comments Feed" href="https://fakenews923.wordpress.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Fakenews &raquo; Week 7 Live&nbsp;methods Comments Feed" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/feed/" />
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+			<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s0.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1488818651h&ver=4.7.3"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='all-css-0-1' href='https://s0.wp.com/_static/??-eJyFj90KwjAMhV/IGoRZvBGfpavRdWvasmSOvb2tRcEf5k1IwvlyTmBOysYgGARoUslPVxcY5mQjKSbncfmYtpZ5A78x7wZk6FGSsYN6TGtyG0fMe0pGioLw7Ax6pCxbwyjpJ1XaLnut2tT4bZtGZFa5kptISZeN/sSjEqX+AVn4vqmogxDFZZpfzdfNagVpasHHG9rRXARYFo9FeqLjrjk0er/TuunvXwKWNg==' type='text/css' media='all' />
+<link rel='stylesheet' id='lovecraft-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%7CLato%3A400%2C400italic%2C700%2C700italic%2C900%2C900italic&#038;subset=latin%2Clatin-ext&#038;ver=4.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='all-css-2-1' href='https://s1.wp.com/_static/??-eJx9jcEKwjAQRH/IuBQi6kH8lnTZxshmNyRbS//eeGsRvc1j5jGwFIcqRmKQZ1d4jkkaRBKqqRc/4hFbO8DGtQdlalDmEVhfhDVMBkkQmq1Mbimo+UvaHapjxWBJZQdu4pDqP7XSyBp7jNBXG/xI93wb/Onq/eU8+Ocbcy1Y/A==' type='text/css' media='all' />
+<link rel='stylesheet' id='print-css-3-1' href='https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h' type='text/css' media='print' />
+<link rel='stylesheet' id='all-css-4-1' href='https://s2.wp.com/_static/??-eJx9i9EKwjAMRX/IGoVN54P4LVnp2kialCbD3xcfRGTi0z0XzoFHC1HFkzjUNTReM4kBRieVGfuH9tFsB7/1puZhYaQOVrCT5Pf+q0wjIQfWrN9nE3lJNRmUATLrjPwSbvV6HC6H83Qap/H+BMWZScE=' type='text/css' media='all' />
+<script type='text/javascript' src='https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I='></script>
+<link rel='stylesheet' id='all-css-0-2' href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h' type='text/css' media='all' />
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fakenews923.wordpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://s1.wp.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Week 6 Ethnography: studying what people do with&nbsp;media' href='https://fakenews923.wordpress.com/2017/03/03/ethnography-studying-what-people-do-with-media-week6/' />
+<link rel='next' title='Week 8 Questions, Theories,&nbsp;Approaches' href='https://fakenews923.wordpress.com/2017/03/18/week-8-questions-theories-approaches/' />
+<meta name="generator" content="WordPress.com" />
+<link rel="canonical" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/" />
+<link rel='shortlink' href='http://wp.me/p8jMYC-21' />
+<link rel="alternate" type="application/json+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=json&amp;url=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F&amp;for=wpcom-auto-discovery" /><link rel="alternate" type="application/xml+oembed" href="https://public-api.wordpress.com/oembed/1.0/?format=xml&amp;url=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F&amp;for=wpcom-auto-discovery" />
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Week 7 Live methods" />
+<meta property="og:url" content="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/" />
+<meta property="og:description" content="Week 7   Live methods Analysis on Design of Apple Website From 1996 to 2016 Link  Background Information This week our group runs an Internet Archive Wayback Machine search on Apple website (www.ap…" />
+<meta property="article:published_time" content="2017-03-04T00:59:06+00:00" />
+<meta property="article:modified_time" content="2017-03-19T17:08:23+00:00" />
+<meta property="og:site_name" content="Fakenews" />
+<meta property="og:image" content="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg" />
+<meta property="og:image:width" content="640" />
+<meta property="og:image:height" content="531" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:site" content="@wordpressdotcom" />
+<meta name="twitter:image:src" content="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="fb:app_id" content="249643311490" />
+<meta property="article:publisher" content="https://www.facebook.com/WordPresscom" />
+<link rel="shortcut icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="icon" type="image/x-icon" href="https://s2.wp.com/i/favicon.ico" sizes="16x16 24x24 32x32 48x48" />
+<link rel="apple-touch-icon-precomposed" href="https://s0.wp.com/i/webclip.png" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://fakenews923.wordpress.com/osd.xml" title="Fakenews" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+<meta name="application-name" content="Fakenews" /><meta name="msapplication-window" content="width=device-width;height=device-height" /><meta name="msapplication-task" content="name=Subscribe;action-uri=https://fakenews923.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="msapplication-task" content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" /><meta name="title" content="Week 7 Live&nbsp;methods | Fakenews on WordPress.com" />
+<meta name="description" content="Week 7   Live methods Analysis on Design of Apple Website From 1996 to 2016 Link  https://web.archive.org/web/*/www.apple.com/ Background Information This week our group runs an Internet Archive Wayback Machine search on Apple website (www.apple.com) from 1996 to 2016 involving live methods. We divide the 20 years into 2 periods and use semiotic and textural analysis to&hellip;" />
+<link rel="amphtml" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/amp/" /><style type="text/css" id="syntaxhighlighteranchor"></style>
+</head>
+
+<body class="post-template-default single single-post postid-125 single-format-standard custom-background mp6 customizer-styles-applied has-featured-image highlander-enabled highlander-light">
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+													<h1 class="site-title"><a href="https://fakenews923.wordpress.com/" rel="home">Fakenews</a></h1>
+			<p class="site-description"></p>
+		</div><!-- .site-branding -->
+
+		<div class="toggles clear">
+			<button class="menu-toggle toggle" aria-controls="primary-menu" aria-expanded="false">
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<div class="bar"></div>
+				<span class="screen-reader-text">Menu</span>
+			</button><!-- .menu-toggle -->
+			<button class="search-toggle toggle">
+				<div class="genericon genericon-search" aria-expanded="false">
+					<span class="screen-reader-text">Search</span>
+				</div><!-- .genericon-search -->
+			</button><!-- .search-toggle -->
+		</div><!-- .toggles -->
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<div class="menu-primary-container"><ul id="primary-menu" class="menu"><li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-19"><a href="https://fakenews923.wordpress.com/blog/">Blog</a></li>
+<li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-16"><a href="https://fakenews923.wordpress.com/">About</a></li>
+<li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="https://fakenews923.wordpress.com/contact/">Contact</a></li>
+</ul></div>		</nav><!-- #site-navigation -->
+
+		<div class="mobile-search">
+			<form role="search" method="get" class="search-form" action="https://fakenews923.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Search</span>
+		</span>
+	</button>
+</form>		</div>
+	</header><!-- #masthead -->
+
+					<div class="header-image bg-image" style="background-image: url(https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=640)">
+
+			<img width="640" height="531" src="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=640" class="attachment-lovecraft-post-image size-lovecraft-post-image wp-post-image" alt="" srcset="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg 640w, https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=150 150w, https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=300 300w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="131" data-permalink="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/img_4158/" data-orig-file="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg" data-orig-size="640,531" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="img_4158" data-image-description="" data-medium-file="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=300" data-large-file="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=640" />
+		</div>
+
+	
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+		
+			
+<article id="post-125" class="post-125 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+	<div class="entry-wrapper">
+		<header class="entry-header">
+			<h1 class="entry-title">Week 7 Live&nbsp;methods</h1>
+							<div class="entry-meta">
+					<span class="posted-on">On <a href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/" rel="bookmark"><time class="entry-date published" datetime="2017-03-04T00:59:06+00:00">March 4, 2017</time><time class="updated" datetime="2017-03-19T17:08:23+00:00">March 19, 2017</time></a></span><span class="byline"> By <span class="author vcard"><a class="url fn n" href="https://fakenews923.wordpress.com/author/fakenewsteam1/">Team 1</a></span></span>				</div><!-- .entry-meta -->
+					</header><!-- .entry-header -->
+
+		<div class="entry-content">
+			<p><strong>Week 7   </strong><strong>Live methods Analysis on Design of Apple Website From 1996 to 2016</strong></p>
+<p><strong>Link </strong></p>
+<p><a href="https://web.archive.org/web/*/www.apple.com/">https://web.archive.org/web/*/www.apple.com/</a></p>
+<p><strong>Background Information</strong></p>
+<p>This week our group runs an Internet Archive Wayback Machine search on Apple website (<a href="http://www.apple.com">www.apple.com</a>) from 1996 to 2016 involving live methods. We divide the 20 years into 2 periods and use semiotic and textural analysis to make it easier and more clear for understanding.</p>
+<p><strong>Live Methods Analysis</strong></p>
+<p><u>Routine design: 1996 – 1998</u><br />
+<img class="editor-featured-image__preview-image aligncenter" src="https://fakenews923.files.wordpress.com/2017/03/img_4152.jpg?w=450" /></p>
+<p style="text-align:center;">Figure 1: 1997</p>
+<p style="text-align:left;">    In 1996, Apple complied with the trend to design the website like an E-mail which shows the styled site with the banner, search bar, accessibility information, navigation, and sidebar. However, 2 years later, Apple renewed the website from a site to provide information of the company into a platform to introduce products. The design of 1998 laid the foundation for that in the following 15 years – highlighted 4 characteristics including a big sector in the middle of website which exhibited key products, few small sectors at the bottom which contained hot news, two or three sectors of secondary products, and a navigation bar at the top of the screen.</p>
+<p><img class="editor-featured-image__preview-image aligncenter" src="https://fakenews923.files.wordpress.com/2017/03/img_4153.jpg?w=450" /></p>
+<p style="text-align:center;">Figure 2: 1998</p>
+<p><u>Style design: 1998 – 2016</u></p>
+<p>The website stayed as a product of Apple as well as a service to promote products, changing with the times and new information. We divide the whole page into four parts –from the top to the bottom, the design follows Pyramid Principles to put key words/introduction on the top and bottom and search engine in the middle. In figure 2, it shows ‘volume’. In the design, part 1 highlighted the product to attract readers. The design in 1998 lay the foundation of that in the following 19 years. Since then it is important to discuss how to improve 4 parts to adapt to suit consumers’ tastes.</p>
+<p><img class="editor-featured-image__preview-image aligncenter" src="https://fakenews923.files.wordpress.com/2017/03/img_4154.jpg?w=450" /></p>
+<p style="text-align:center;">Figure 3: 2001</p>
+<p style="text-align:left;">    Apple has always had a special relationship with the element of water (Aqua). In 2001, navigation bar and hot news sectors shared features of Aqua − such designs are often quite complex, include rich imagery and vivid animation effects.</p>
+<p style="text-align:left;"><img class="editor-featured-image__preview-image aligncenter" src="https://fakenews923.files.wordpress.com/2017/03/img_4158.jpg?w=450" /></p>
+<p style="text-align:center;">Figure 4: 2008</p>
+<p>    The space of the big sector kept expanding since 1998. In 2016, in order to promote new Iphone 6, the sector is double that of 1998. On the contrary, sectors of hot news became smaller and smaller and finally blended into the background in 2008. This change related to Apple’s brand awareness. In the 2000s, the official website transformed into a sales platform because Apple was so famous that it did not need to introduce company cultures specifically. And sectors of secondary became independent by adding outline border shadow.</p>
+<p style="text-align:center;"><img class="editor-featured-image__preview-image" src="https://fakenews923.files.wordpress.com/2017/03/b73i0v5mvwd4cpoy1kp.png?w=450" /></p>
+<p style="text-align:center;">Figure 5: 2016</p>
+<p><strong>Conclusion</strong></p>
+<p>Apple focuses on details. In 20 years, like Imac and Iphone, its website revised and reorganized details, combining art, function, and self-created culture. We conclude main changes as following after viewing designs in 20 years: a) the simple design highlights core product and avoids secondary data accordingly; b) the clear navigation bar make users feel free to browse products; c) the same font in different sizes differentiate ‘volume’ of information; and d) the appropriate color matching, light and shadow make users feel comfortable. The process of changing is from ‘more’ to ‘less’.</p>
+<p>In today’s discussion, our group describe initial observation of Apple by analyzing snapshots of their website, work on digital ethnography, and summarize the design path to success.</p>
+<p><strong>References</strong></p>
+<p>Apple Company. <a href="http://www.apple.com">www.apple.com</a></p>
+<p>Hein, B. (2013) <em>Back to The Future: 15 Years Of Apple Web Design Seen Through A Time Machine [Feature], </em>Cult of Mac [online], 23 January.  <a href="http://www.cultofmac.com/211047/back-to-the-future-15-years-of-apple-web-design-seen-through-a-time-machine-feature/">http://www.cultofmac.com/211047/back-to-the-future-15-years-of-apple-web-design-seen-through-a-time-machine-feature/</a></p>
+<div id="jp-post-flair" class="sharedaddy sd-like-enabled sd-sharing-enabled"><div class="sharedaddy sd-sharing-enabled"><div class="robots-nocontent sd-block sd-social sd-social-icon-text sd-sharing"><h3 class="sd-title">Share this:</h3><div class="sd-content"><ul><li class="share-twitter"><a rel="nofollow" data-shared="sharing-twitter-125" class="share-twitter sd-button share-icon" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/?share=twitter" target="_blank" title="Click to share on Twitter"><span>Twitter</span></a></li><li class="share-facebook"><a rel="nofollow" data-shared="sharing-facebook-125" class="share-facebook sd-button share-icon" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/?share=facebook" target="_blank" title="Share on Facebook"><span>Facebook</span></a></li><li class="share-google-plus-1"><a rel="nofollow" data-shared="sharing-google-125" class="share-google-plus-1 sd-button share-icon" href="https://fakenews923.wordpress.com/2017/03/04/live-methods-week-7/?share=google-plus-1" target="_blank" title="Click to share on Google+"><span>Google</span></a></li><li class="share-end"></li></ul></div></div></div><div class='sharedaddy sd-block sd-like jetpack-likes-widget-wrapper jetpack-likes-widget-unloaded' id='like-post-wrapper-122927190-125-58e2f768152e5' data-src='//widgets.wp.com/likes/#blog_id=122927190&amp;post_id=125&amp;origin=fakenews923.wordpress.com&amp;obj_id=122927190-125-58e2f768152e5' data-name='like-post-frame-122927190-125-58e2f768152e5'><h3 class='sd-title'>Like this:</h3><div class='likes-widget-placeholder post-likes-widget-placeholder' style='height: 55px;'><span class='button'><span>Like</span></span> <span class="loading">Loading...</span></div><span class='sd-text-color'></span><a class='sd-link-color'></a></div></div>					</div><!-- .entry-content -->
+
+		<footer class="entry-footer">
+								</footer><!-- .entry-footer -->
+	</div>
+</article><!-- #post-## -->
+
+
+			
+	<nav class="navigation post-navigation" role="navigation">
+		<h2 class="screen-reader-text">Post navigation</h2>
+		<div class="nav-links"><div class="nav-previous"><a href="https://fakenews923.wordpress.com/2017/03/03/ethnography-studying-what-people-do-with-media-week6/" rel="prev"><span class="meta-nav">Previous</span> <h4>Week 6 Ethnography: studying what people do with&nbsp;media</h4></a></div><div class="nav-next"><a href="https://fakenews923.wordpress.com/2017/03/18/week-8-questions-theories-approaches/" rel="next"><span class="meta-nav">Next</span> <h4>Week 8 Questions, Theories,&nbsp;Approaches</h4></a></div></div>
+	</nav>
+			
+<div id="comments" class="comments-area">
+	<div class="comments-wrapper">
+		
+		
+		
+			<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/2017/03/04/live-methods-week-7/#respond" style="display:none;">Cancel reply</a></small></h3>			<form action="https://fakenews923.wordpress.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+				<input type="hidden" id="highlander_comment_nonce" name="highlander_comment_nonce" value="08178c515d" /><input type="hidden" name="_wp_http_referer" value="/2017/03/04/live-methods-week-7/" />
+<input type="hidden" name="hc_post_as" id="hc_post_as" value="guest" />
+
+<div class="comment-form-field comment-textarea">
+	<label for="comment">Enter your comment here...</label>
+	<div id="comment-form-comment"><textarea id="comment" name="comment" title="Enter your comment here..."></textarea></div>
+</div>
+
+<div id="comment-form-identity">
+
+	<div id="comment-form-nascar">
+		<p>Fill in your details below or click an icon to log in:</p>
+		<ul>
+			<li class="selected" style="display:none;">
+				<a href="#comment-form-guest" id="postas-guest" title="Guest">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:WordPress.com" id="postas-wordpress" title="WordPress.com">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Twitter" id="postas-twitter" title="Twitter">
+					<span></span>
+				</a>
+			</li>
+			<li>
+				<a href="#comment-form-load-service:Facebook" id="postas-facebook" title="Facebook">
+					<span></span>
+				</a>
+			</li>
+			<li>
+			<iframe id="googleplus-sign-in" name="googleplus-sign-in" src="https://public-api.wordpress.com/connect/?googleplus-sign-in=https%3A%2F%2Ffakenews923.wordpress.com" width="24" height="24" scrolling="no" allowtransparency="true" seamless="seamless" frameborder="0"></iframe>
+			</li>
+		</ul>
+	</div>
+
+	<div id="comment-form-guest" class="comment-form-service selected">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+<a href="https://gravatar.com/site/signup/" target="_blank">				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Gravatar" width="25" class="no-grav" />
+</a>			</div>
+
+				<div class="comment-form-fields">
+				<div class="comment-form-field comment-form-email">
+					<label for="email">Email <span class="required">(required)</span> <span class="nopublish">(Address never made public)</span></label>
+					<div class="comment-form-input"><input id="email" name="email" type="email" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-author">
+					<label for="author">Name <span class="required">(required)</span></label>
+					<div class="comment-form-input"><input id="author" name="author" type="text" value="" /></div>
+				</div>
+				<div class="comment-form-field comment-form-url">
+					<label for="url">Website</label>
+					<div class="comment-form-input"><input id="url" name="url" type="url" value="" /></div>
+				</div>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-wordpress" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="WordPress.com Logo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="wp_avatar" id="wordpress-avatar" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_user_id" id="wordpress-user_id" class="comment-meta-wordpress" value="" />
+				<input type="hidden" name="wp_access_token" id="wordpress-access_token" class="comment-meta-wordpress" value="" />
+				<p class="comment-form-posting-as pa-wordpress"><strong></strong> You are commenting using your WordPress.com account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'wordpress' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-twitter" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Twitter picture" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="twitter_avatar" id="twitter-avatar" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_user_id" id="twitter-user_id" class="comment-meta-twitter" value="" />
+				<input type="hidden" name="twitter_access_token" id="twitter-access_token" class="comment-meta-twitter" value="" />
+				<p class="comment-form-posting-as pa-twitter"><strong></strong> You are commenting using your Twitter account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'twitter' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-facebook" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Facebook photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="fb_avatar" id="facebook-avatar" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_user_id" id="facebook-user_id" class="comment-meta-facebook" value="" />
+				<input type="hidden" name="fb_access_token" id="facebook-access_token" class="comment-meta-facebook" value="" />
+				<p class="comment-form-posting-as pa-facebook"><strong></strong> You are commenting using your Facebook account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'facebook' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+	<div id="comment-form-googleplus" class="comment-form-service">
+		<div class="comment-form-padder">
+			<div class="comment-form-avatar">
+				<img src="https://1.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=25&amp;d=identicon&amp;forcedefault=y&amp;r=G" alt="Google+ photo" width="25" class="no-grav" />
+			</div>
+
+				<div class="comment-form-fields">
+				<input type="hidden" name="googleplus_avatar" id="googleplus-avatar" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_user_id" id="googleplus-user_id" class="comment-meta-googleplus" value="" />
+				<input type="hidden" name="googleplus_access_token" id="googleplus-access_token" class="comment-meta-googleplus" value="" />
+				<p class="comment-form-posting-as pa-googleplus"><strong></strong> You are commenting using your Google+ account. <span class="comment-form-log-out">(&nbsp;<a href="javascript:HighlanderComments.doExternalLogout( 'googleplus' );">Log&nbsp;Out</a>&nbsp;/&nbsp;<a href="#" onclick="javascript:HighlanderComments.switchAccount();return false;">Change</a>&nbsp;)</span></p>
+			</div>
+	
+		</div>
+	</div>
+
+
+	<div id="comment-form-load-service" class="comment-form-service">
+		<div class="comment-form-posting-as-cancel"><a href="javascript:HighlanderComments.cancelExternalWindow();">Cancel</a></div>
+		<p>Connecting to %s</p>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+</script>
+
+<div id="comment-form-subscribe">
+	<p class="comment-subscription-form"><input type="checkbox" name="subscribe" id="subscribe" value="subscribe" style="width: auto;"/> <label class="subscribe-label" id="subscribe-label" for="subscribe" style="display: inline;">Notify me of new comments via email.</label></p></div>
+
+
+
+
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="submit" value="Post Comment" /> <input type='hidden' name='comment_post_ID' value='125' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5ac383c49e" /></p>
+<input type="hidden" name="genseq" value="1491269480" />
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="93"/></p>			</form>
+			</div><!-- #respond -->
+	<div style="clear: both"></div>	</div>
+</div><!-- #comments -->
+
+		
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+<div id="secondary" class="widget-area" role="complementary">
+	<aside id="search-2" class="widget widget_search"><h1 class="widget-title">Search</h1><form role="search" method="get" class="search-form" action="https://fakenews923.wordpress.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:" />
+	</label>
+	<button type="submit" class="search-submit">
+		<span class="genericon genericon-search">
+			<span class="screen-reader-text">Search</span>
+		</span>
+	</button>
+</form></aside></div><!-- #secondary -->
+
+	</div><!-- #content -->
+		<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="site-info">
+			<a href="https://wordpress.com/?ref=footer_blog">Blog at WordPress.com.</a>
+			
+					</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<!--  -->
+<script type='text/javascript' src='//0.gravatar.com/js/gprofiles.js?ver=201714y'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
+
+	<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+
+		<div style="display:none">
+	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/fakenews923.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/fakenews923.wordpress.com\/wp-login.php?action=logout&_wpnonce=0fa9247e21","homeURL":"https:\/\/fakenews923.wordpress.com\/","postID":"125","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j'></script>
+
+	<div id="carousel-reblog-box">
+		<form action="#" name="carousel-reblog">
+			<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+			<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+			<select name="carousel-reblog-to-blog-id" id="carousel-reblog-to-blog-id">
+						</select>
+
+			<div class="submit">
+				<span class="canceltext"><a href="#" class="cancel">Cancel</a></span>
+				<input type="submit" name="carousel-reblog-submit" class="button" id="carousel-reblog-submit" value="Reblog Post" />
+				<input type="hidden" id="carousel-reblog-blog-id" value="122927190" />
+				<input type="hidden" id="carousel-reblog-blog-url" value="https://fakenews923.wordpress.com" />
+				<input type="hidden" id="carousel-reblog-blog-title" value="Fakenews" />
+				<input type="hidden" id="carousel-reblog-post-url" value="" />
+				<input type="hidden" id="carousel-reblog-post-title" value="" />
+			</div>
+
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="6267bef19f" /><input type="hidden" name="_wp_http_referer" value="/2017/03/04/live-methods-week-7/" />		</form>
+
+		<div class="arrow"></div>
+	</div>
+
+	<script type="text/javascript">
+		window.WPCOM_sharing_counts = {"https:\/\/fakenews923.wordpress.com\/2017\/03\/04\/live-methods-week-7\/":125};
+	</script>
+		<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		</script>
+				<script type="text/javascript">
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		</script>
+		<script type='text/javascript' src='https://s1.wp.com/wp-content/mu-plugins/akismet-3.0/_inc/form.js?m=1404442431h'></script>
+<link rel='stylesheet' id='all-css-0-3' href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h' type='text/css' media='all' />
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript'>
+/* <![CDATA[ */
+var comment_like_text = {"loading":"Loading..."};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var actionbardata = {"siteID":"122927190","siteName":"Fakenews","siteURL":"http:\/\/fakenews923.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/lovecraft","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/fakenews923.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F","themeURL":"https:\/\/wordpress.com\/theme\/lovecraft\/","xhrURL":"https:\/\/fakenews923.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"5b6503dd79","isSingular":"1","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"04f57cf6ea\" \/>","referer":"https:\/\/fakenews923.wordpress.com\/2017\/03\/04\/live-methods-week-7\/","canFollow":"1","statusMessage":"","customizeLink":"https:\/\/fakenews923.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F","postID":"125","shortlink":"http:\/\/wp.me\/p8jMYC-21","canEditPost":"","editLink":"https:\/\/wordpress.com\/post\/fakenews923.wordpress.com\/125","statsLink":"https:\/\/wordpress.com\/stats\/post\/125\/fakenews923.wordpress.com","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Lovecraft","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in the Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/fakenews923.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/fakenews923.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"394323cadf","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/fakenews923.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Ffakenews923.wordpress.com%2F2017%2F03%2F04%2Flive-methods-week-7%2F","blog_id":"122927190","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=122927190&v=wpcom&tz=0&user_id=0&subd=fakenews923","is_public":"1","reblog_enabled":""};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://s0.wp.com/_static/??-eJyVUe1OwzAMfCHSbNImwQ/Es7ip27rNF3bSbW9PCqx0MFXjl63znXMX61NUJviEPulBdIMTGYznapAnvRq5rKLNHXnRlkYU/Z4xYw++scgbZBOcK5D6Eg2zutZyooj/Ed0Av4WpR1doMdfahgkNQ/sZxcNEHSQK/lFFZ0MN9lG2jBSLIz+qNpgsqqXl18gbm5tb74zRXipHf9ysgkNT5qoG1g4kIZdOlSeZaV62YFsbzBx43rB090xJ/PGxxodyVr58l2rNuncm4JAFrR4wRTCjugIbmhgkqdYCsZYemHx3rUX05l73h+eX4353OO6GD3ik+c8='></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script>	<script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "fakenews923.wordpress.com";
+	</script>
+	<script type="text/javascript" defer src="https://s.skimresources.com/js/725X1342.skimlinks.js"></script>		<iframe src='https://widgets.wp.com/likes/master.html?ver=20170206#ver=20170206' scrolling='no' id='likes-master' name='likes-master' style='display:none;'></iframe>
+		<div id='likes-other-gravatars'><div class="likes-text"><span>%d</span> bloggers like this:</div><ul class="wpl-avatars sd-like-gravatars"></ul></div>
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push({
+				c1: "2",
+				c2: "7518284"
+			});
+			(function() {
+				var s = document.createElement("script"),
+					el = document.getElementsByTagName("script")[0];
+				s.defer = true;
+				s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore(s, el);
+			})();
+		</script>
+		<noscript>
+			<p class="robots-nocontent"><img src="https://sb.scorecardresearch.com/p?c1=2&c2=7518284&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="display:none;" width="1" height="1" /></p>
+		</noscript><script src="//stats.wp.com/w.js?56" type="text/javascript" async defer></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'122927190','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'122927190','v':'wpcom','tz':'0','user_id':'0','post':'125','subd':'fakenews923'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mJVY3bm9aR3VCbS9mWm1pRyZuJS1LX1t5QmRXZzE3RC9rQWZHK1FjbDltdWdaMVFFZTcxWldmV10tUWgraE1GWnYwY0YwRHAuamQrRHpdL2ItRFB+aTR4cF1DZlNiN0RYWVJiSi8lUSU3bHolcTlQM0xMX3ZqMXBGK34zQlpdVUNSSkF4Tm93dCVVKzFYdFRBOHBFS254OC54LnA1SlZqNTIybzlKSW1BZFNYSGUyVl9KMS1rcHBUZj1beCtbW3orK1ZVST0mWWpTeEJXOSxoMiZlbGJoLkN+SWsrYXk/TmV3YTFzRVB8aWZRV0xxa1t0VWVZcmEzXUovMXBuMURva2U1Y25oYVk='}]);
+_stq.push([ 'clickTrackerInit', '122927190', '125' ]);
+	</script>
+<noscript><img src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden" alt="" /></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
