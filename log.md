@@ -47,7 +47,7 @@
 - group 1 https://fakenews923.wordpress.com/
 - group 2 portfolio: https://fakenewsgroup2.wordpress.com/2017/01/26/what-is-fake-news/
 - group 3 http://socl923fakenews.blogspot.co.uk/ 
-- group 4 https://www.facebook.com/groups/171801853303023/?ref=group_browse_new&qsefr=1 
+- group 4 https://fakenewsproject.wordpress.com/ https://www.facebook.com/groups/171801853303023/?ref=group_browse_new&qsefr=1 
 
 ## Fri 10 Mar 2017 09:00:00 GMT
 - TODO: need to print out Crang for my collection of readings 
@@ -69,3 +69,8 @@
 
 ## Thu 06 Apr 2017 06:45:39 BST
 - downloaded the projects and put in group_projects/  
+
+## Tue 11 Apr 2017 10:11:02 AEST
+- finally starting to do the marking of the projects 
+- spent quite some time reorganizing documents
+
