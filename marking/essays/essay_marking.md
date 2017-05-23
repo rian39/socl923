@@ -51,7 +51,17 @@ The standard of written expression was very high.
 
 # Ordonez, Jessica
 
+
 # Simpson, Oliver
 
-# Lisha,  Liu
+# Liu, Lisha
 
+58
+
+Li-Sha, this was a well-organized and thoughtful response to the question. You show a developing sense of ethnography and its relevance to MCS. The essay was not so strong its engagement with other forms of research practice in MCS. You did not discuss textual analysis, visualities, discourse analysis and more recent 'live methods' in any great depth.   
+
+You showed understanding of media culture as a contested terrain for social groups and ideologies. It would have been great if you discussed how that understanding affects or steers research practice in MCS. How would ethnography be relevant given that view of media culture, for instance? I was also wondering whether you thought the idea of studying culture from the inside, or of being inside culture as a researcher differs from the idea of studying culture as a phenomena to be known objectively. I liked your concluding reflections on the relation between world and media.   
+
+One important aspect of the essay was missing: the critical reflection on your group research project. 
+
+Your essay drawn on a wide range of references, including some from well beyond this course. I was please to  see you engaging substantially with the idea of digital ethnography. 
