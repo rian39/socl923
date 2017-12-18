@@ -74,3 +74,22 @@
 - finally starting to do the marking of the projects 
 - spent quite some time reorganizing documents
 - finished putting marks in the spreadsheet marking/group_projects_2016_17/socl923_group_online-portfolio_feedback.ods
+
+## Mon 18 Dec 2017 15:54:08 GMT
+- been asking for readings to handover to ted
+
+Monika Buscher, Büscher, M., Urry, J., & Witchger, K. (2010). Introduction: Mobile methods. In: Mobile Methods. London: Routledge, pp. 1-19.
+ 
+http://lib.myilibrary.com.ezproxy.lancs.ac.uk/Open.aspx?id=278234
+ 
+http://onesearch.lancaster-university.uk/primo_library/libweb/action/display.do?tabs=viewOnlineTab&ct=display&fn=search&doc=44LAN_ALMA_DS5186580310001221&indx=2&recIds=44LAN_ALMA_DS5186580310001221&recIdxs=1&elementId=1&renderMode=poppedOut&displayMode=full&frbrVersion=&frbg=&&vl(295029456UI1)=all_items&vl(81797466UI0)=any&dscnt=0&vl(1UIStartWith0)=contains&scp.scps=scope%3A%2844LAN_LANUL_LIB%29&tb=t&vid=LUL_VU1&mode=Basic&srt=rank&tab=books&dum=true&vl(freeText0)=Mobile%20Methods&dstmp=1513174987809
+ 
+
+Anne Cronin, 'Reputational capital in 'the PR University': public relations and market rationalities', Journal of Cultural Economy, http://dx.doi.org/10.1080/17530350.2016.1179663<Paste>
+
+
+Maarten Michielse, 'Broadcasting the Bedroom' -- will forward the PDF Maarten sent me.   
+
+Joe Deville has agreed -- same reading as last year.
+
+That's all I have at the moment. 
